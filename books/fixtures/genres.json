@@ -1,0 +1,74 @@
+[
+  {
+    "model": "books.genre",
+    "pk": 1,
+    "fields": {
+      "name": "Science Fiction",
+      "description": "Stories set in futuristic or imaginary worlds with advanced technology",
+      "created_at": "2026-01-17T00:00:00Z"
+    }
+  },
+  {
+    "model": "books.genre",
+    "pk": 2,
+    "fields": {
+      "name": "Mystery",
+      "description": "Stories featuring a puzzle to solve or crime to uncover",
+      "created_at": "2026-01-17T00:00:00Z"
+    }
+  },
+  {
+    "model": "books.genre",
+    "pk": 3,
+    "fields": {
+      "name": "Romance",
+      "description": "Stories centered on romantic relationships and emotional connections",
+      "created_at": "2026-01-17T00:00:00Z"
+    }
+  },
+  {
+    "model": "books.genre",
+    "pk": 4,
+    "fields": {
+      "name": "Fantasy",
+      "description": "Stories with magical elements, mythical creatures, and imaginary worlds",
+      "created_at": "2026-01-17T00:00:00Z"
+    }
+  },
+  {
+    "model": "books.genre",
+    "pk": 5,
+    "fields": {
+      "name": "Historical Fiction",
+      "description": "Stories set in past historical periods with fictional narratives",
+      "created_at": "2026-01-17T00:00:00Z"
+    }
+  },
+  {
+    "model": "books.genre",
+    "pk": 6,
+    "fields": {
+      "name": "Thriller",
+      "description": "Stories with suspense, danger, and fast-paced action",
+      "created_at": "2026-01-17T00:00:00Z"
+    }
+  },
+  {
+    "model": "books.genre",
+    "pk": 7,
+    "fields": {
+      "name": "Self-Help",
+      "description": "Non-fiction books providing advice for personal improvement",
+      "created_at": "2026-01-17T00:00:00Z"
+    }
+  },
+  {
+    "model": "books.genre",
+    "pk": 8,
+    "fields": {
+      "name": "Biography",
+      "description": "True stories about the lives of famous people",
+      "created_at": "2026-01-17T00:00:00Z"
+    }
+  }
+]

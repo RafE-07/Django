@@ -1,0 +1,652 @@
+[
+  {
+    "model": "books.book",
+    "pk": 1,
+    "fields": {
+      "title": "Foundation",
+      "description": "A series spanning the galaxy about the fall and rise of an empire",
+      "published_year": 1951,
+      "price": "14.99",
+      "pages": 255,
+      "isbn": "9780553293357",
+      "created_at": "2026-01-17T00:00:00Z"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 2,
+    "fields": {
+      "title": "Murder on the Orient Express",
+      "description": "A classic mystery where Hercule Poirot investigates a locked-room murder",
+      "published_year": 1934,
+      "price": "12.99",
+      "pages": 256,
+      "isbn": "9780062693556",
+      "created_at": "2026-01-17T00:00:00Z"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 3,
+    "fields": {
+      "title": "The Lord of the Rings: The Fellowship of the Ring",
+      "description": "An epic fantasy journey through Middle-earth to destroy the One Ring",
+      "published_year": 1954,
+      "price": "18.99",
+      "pages": 423,
+      "isbn": "9780544003415",
+      "created_at": "2026-01-17T00:00:00Z"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 4,
+    "fields": {
+      "title": "The Shining",
+      "description": "A psychological horror novel set in an isolated haunted hotel",
+      "published_year": 1977,
+      "price": "15.99",
+      "pages": 447,
+      "isbn": "9780385333312",
+      "created_at": "2026-01-17T00:00:00Z"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 5,
+    "fields": {
+      "title": "Pride and Prejudice",
+      "description": "A romantic novel about Elizabeth Bennet and Mr. Darcy",
+      "published_year": 1813,
+      "price": "9.99",
+      "pages": 279,
+      "isbn": "9780141439518",
+      "created_at": "2026-01-17T00:00:00Z"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 6,
+    "fields": {
+      "title": "1984",
+      "description": "A dystopian novel about totalitarianism and surveillance state",
+      "published_year": 1949,
+      "price": "13.99",
+      "pages": 328,
+      "isbn": "9780451524935",
+      "created_at": "2026-01-17T00:00:00Z"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 7,
+    "fields": {
+      "title": "To Kill a Mockingbird",
+      "description": "A classic about racial injustice in the American South",
+      "published_year": 1960,
+      "price": "14.99",
+      "pages": 323,
+      "isbn": "9780061120084",
+      "created_at": "2026-01-17T00:00:00Z"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 8,
+    "fields": {
+      "title": "The Da Vinci Code",
+      "description": "A thrilling mystery spanning art, history, and religion",
+      "published_year": 2003,
+      "price": "16.99",
+      "pages": 689,
+      "isbn": "9780307474278",
+      "created_at": "2026-01-17T00:00:00Z"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 9,
+    "fields": {
+      "title": "A Study in Scarlet",
+      "description": "The first appearance of Sherlock Holmes in detective fiction",
+      "published_year": 1887,
+      "price": "8.99",
+      "pages": 107,
+      "isbn": "9781451524659",
+      "created_at": "2026-01-17T00:00:00Z"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 10,
+    "fields": {
+      "title": "The Handmaid's Tale",
+      "description": "A dystopian novel about a woman in a totalitarian regime",
+      "published_year": 1985,
+      "price": "16.99",
+      "pages": 395,
+      "isbn": "9780385490818",
+      "created_at": "2026-01-17T00:00:00Z"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 11,
+    "fields": {
+      "title": "I, Robot",
+      "description": "A collection of stories about robots and the laws governing them",
+      "published_year": 1950,
+      "price": "12.99",
+      "pages": 224,
+      "isbn": "9780553382563",
+      "created_at": "2026-01-17T00:00:00Z"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 12,
+    "fields": {
+      "title": "The Hobbit",
+      "description": "An adventure fantasy about Bilbo Baggins and his quest",
+      "published_year": 1937,
+      "price": "14.99",
+      "pages": 310,
+      "isbn": "9780547928227",
+      "created_at": "2026-01-17T00:00:00Z"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 13,
+    "fields": {
+      "title": "Misery",
+      "description": "A thriller about a writer held captive by an obsessed fan",
+      "published_year": 1987,
+      "price": "15.99",
+      "pages": 310,
+      "isbn": "9780451160911",
+      "created_at": "2026-01-17T00:00:00Z"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 14,
+    "fields": {
+      "title": "The Hand of Fate",
+      "description": "A romance novel set in a historical setting with emotional depth",
+      "published_year": 2015,
+      "price": "17.99",
+      "pages": 400,
+      "isbn": "9781101884219",
+      "created_at": "2026-01-17T00:00:00Z"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 15,
+    "fields": {
+      "title": "Dead Souls",
+      "description": "A psychological mystery about a detective tracking a killer",
+      "published_year": 2008,
+      "price": "14.99",
+      "pages": 360,
+      "isbn": "9781402241023",
+      "created_at": "2026-01-17T00:00:00Z"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 16,
+    "fields": {
+      "title": "Dune",
+      "description": "An epic science fiction saga about politics and survival on a desert planet",
+      "published_year": 1965,
+      "price": "17.99",
+      "pages": 688,
+      "isbn": "9780441172719",
+      "created_at": "2026-01-17T00:00:00Z"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 17,
+    "fields": {
+      "title": "The Great Gatsby",
+      "description": "A classic American novel about wealth, love, and the Jazz Age",
+      "published_year": 1925,
+      "price": "11.99",
+      "pages": 180,
+      "isbn": "9780743273565",
+      "created_at": "2026-01-17T00:00:00Z"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 18,
+    "fields": {
+      "title": "Sherlock Holmes: A Scandal in Bohemia",
+      "description": "A famous adventure of Sherlock Holmes and the woman he could not forget",
+      "published_year": 1892,
+      "price": "9.99",
+      "pages": 50,
+      "isbn": "9780061173721",
+      "created_at": "2026-01-17T00:00:00Z"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 19,
+    "fields": {
+      "title": "The Bell Jar",
+      "description": "A semi-autobiographical novel about a young woman's mental breakdown",
+      "published_year": 1963,
+      "price": "15.99",
+      "pages": 244,
+      "isbn": "9780060837020",
+      "created_at": "2026-01-17T00:00:00Z"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 20,
+    "fields": {
+      "title": "Angels and Demons",
+      "description": "A fast-paced mystery involving the Vatican and ancient secrets",
+      "published_year": 2000,
+      "price": "16.99",
+      "pages": 671,
+      "isbn": "9780307474254",
+      "created_at": "2026-01-17T00:00:00Z"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 21,
+    "fields": {
+      "title": "Foundation's Edge",
+      "description": "The continuation of the Foundation series exploring galactic civilizations",
+      "published_year": 1982,
+      "price": "15.99",
+      "pages": 367,
+      "isbn": "9780553293388",
+      "created_at": "2026-01-17T00:00:00Z"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 22,
+    "fields": {
+      "title": "Death on the Nile",
+      "description": "A luxurious river cruise becomes the scene of a complex murder mystery",
+      "published_year": 1937,
+      "price": "12.99",
+      "pages": 288,
+      "isbn": "9780062693570",
+      "created_at": "2026-01-17T00:00:00Z"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 23,
+    "fields": {
+      "title": "The Two Towers",
+      "description": "The middle part of the epic quest to destroy the One Ring",
+      "published_year": 1954,
+      "price": "18.99",
+      "pages": 352,
+      "isbn": "9780544003422",
+      "created_at": "2026-01-17T00:00:00Z"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 24,
+    "fields": {
+      "title": "The Stand",
+      "description": "An apocalyptic novel about survivors of a devastating plague",
+      "published_year": 1978,
+      "price": "19.99",
+      "pages": 1168,
+      "isbn": "9780385333313",
+      "created_at": "2026-01-17T00:00:00Z"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 25,
+    "fields": {
+      "title": "Sense and Sensibility",
+      "description": "A romance novel featuring sisters with contrasting personalities",
+      "published_year": 1811,
+      "price": "10.99",
+      "pages": 409,
+      "isbn": "9780141439570",
+      "created_at": "2026-01-17T00:00:00Z"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 26,
+    "fields": {
+      "title": "Animal Farm",
+      "description": "A satirical allegory about revolution and corruption",
+      "published_year": 1945,
+      "price": "11.99",
+      "pages": 112,
+      "isbn": "9780451526342",
+      "created_at": "2026-01-17T00:00:00Z"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 27,
+    "fields": {
+      "title": "Invisible Man",
+      "description": "A science fiction novel about a man who can become invisible",
+      "published_year": 1897,
+      "price": "10.99",
+      "pages": 178,
+      "isbn": "9780486263755",
+      "created_at": "2026-01-17T00:00:00Z"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 28,
+    "fields": {
+      "title": "The Hound of the Baskervilles",
+      "description": "A Sherlock Holmes mystery involving a legendary curse",
+      "published_year": 1901,
+      "price": "11.99",
+      "pages": 223,
+      "isbn": "9780486282114",
+      "created_at": "2026-01-17T00:00:00Z"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 29,
+    "fields": {
+      "title": "Midnight in the Garden of Good and Evil",
+      "description": "A mystery combining true crime with Southern gothic atmosphere",
+      "published_year": 1994,
+      "price": "18.99",
+      "pages": 386,
+      "isbn": "9780679425892",
+      "created_at": "2026-01-17T00:00:00Z"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 30,
+    "fields": {
+      "title": "The Silmarillion",
+      "description": "Tolkien's mythology and history of Middle-earth",
+      "published_year": 1977,
+      "price": "19.99",
+      "pages": 365,
+      "isbn": "9780544003438",
+      "created_at": "2026-01-17T00:00:00Z"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 31,
+    "fields": {
+      "title": "Brave New World",
+      "description": "A dystopian novel about a superficially perfect but emotionally hollow society",
+      "published_year": 1932,
+      "price": "13.99",
+      "pages": 311,
+      "isbn": "9780060085987",
+      "created_at": "2026-01-17T00:00:00Z"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 32,
+    "fields": {
+      "title": "It",
+      "description": "An epic horror novel about children facing a shapeshifting entity",
+      "published_year": 1986,
+      "price": "19.99",
+      "pages": 1138,
+      "isbn": "9780451191144",
+      "created_at": "2026-01-17T00:00:00Z"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 33,
+    "fields": {
+      "title": "Emma",
+      "description": "A romantic comedy novel about a meddling matchmaker in regency England",
+      "published_year": 1815,
+      "price": "11.99",
+      "pages": 474,
+      "isbn": "9780141439587",
+      "created_at": "2026-01-17T00:00:00Z"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 34,
+    "fields": {
+      "title": "The Return of the King",
+      "description": "The epic conclusion of the Lord of the Rings trilogy",
+      "published_year": 1955,
+      "price": "18.99",
+      "pages": 416,
+      "isbn": "9780544003430",
+      "created_at": "2026-01-17T00:00:00Z"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 35,
+    "fields": {
+      "title": "The Name of the Wind",
+      "description": "A fantasy novel about a gifted musician and magician's education",
+      "published_year": 2007,
+      "price": "17.99",
+      "pages": 662,
+      "isbn": "9780756404079",
+      "created_at": "2026-01-17T00:00:00Z"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 36,
+    "fields": {
+      "title": "Carrie",
+      "description": "A horror novel about a bullied girl with psychokinetic powers",
+      "published_year": 1974,
+      "price": "12.99",
+      "pages": 199,
+      "isbn": "9780385334693",
+      "created_at": "2026-01-17T00:00:00Z"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 37,
+    "fields": {
+      "title": "The Time Traveler's Wife",
+      "description": "A romantic science fiction novel about a man who involuntarily travels through time",
+      "published_year": 2003,
+      "price": "16.99",
+      "pages": 544,
+      "isbn": "9780375507557",
+      "created_at": "2026-01-17T00:00:00Z"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 38,
+    "fields": {
+      "title": "Murder on the Links",
+      "description": "Another mystery featuring the legendary detective Hercule Poirot",
+      "published_year": 1923,
+      "price": "11.99",
+      "pages": 256,
+      "isbn": "9780062693624",
+      "created_at": "2026-01-17T00:00:00Z"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 39,
+    "fields": {
+      "title": "American Gods",
+      "description": "A fantasy novel about a war between old and new gods in America",
+      "published_year": 2001,
+      "price": "18.99",
+      "pages": 635,
+      "isbn": "9780060530204",
+      "created_at": "2026-01-17T00:00:00Z"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 40,
+    "fields": {
+      "title": "The Girl with the Dragon Tattoo",
+      "description": "A modern mystery thriller about a journalist investigating a disappearance",
+      "published_year": 2005,
+      "price": "17.99",
+      "pages": 465,
+      "isbn": "9780307269935",
+      "created_at": "2026-01-17T00:00:00Z"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 41,
+    "fields": {
+      "title": "Foundation and Empire",
+      "description": "The second book in the Foundation series exploring political intrigue",
+      "published_year": 1952,
+      "price": "14.99",
+      "pages": 247,
+      "isbn": "9780553293371",
+      "created_at": "2026-01-17T00:00:00Z"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 42,
+    "fields": {
+      "title": "The Mysterious Affair at Styles",
+      "description": "The first Hercule Poirot mystery set in a country mansion",
+      "published_year": 1920,
+      "price": "10.99",
+      "pages": 256,
+      "isbn": "9780062693549",
+      "created_at": "2026-01-17T00:00:00Z"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 43,
+    "fields": {
+      "title": "Children of Dune",
+      "description": "The continuation of the Dune saga with new generations",
+      "published_year": 1976,
+      "price": "17.99",
+      "pages": 604,
+      "isbn": "9780441104895",
+      "created_at": "2026-01-17T00:00:00Z"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 44,
+    "fields": {
+      "title": "Jane Eyre",
+      "description": "A gothic romance about a governess and her mysterious employer",
+      "published_year": 1847,
+      "price": "12.99",
+      "pages": 507,
+      "isbn": "9780141441146",
+      "created_at": "2026-01-17T00:00:00Z"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 45,
+    "fields": {
+      "title": "The Invisible Man",
+      "description": "A classic science fiction novel about a man who discovers invisibility",
+      "published_year": 1897,
+      "price": "10.99",
+      "pages": 256,
+      "isbn": "9780486264845",
+      "created_at": "2026-01-17T00:00:00Z"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 46,
+    "fields": {
+      "title": "Northanger Abbey",
+      "description": "A satirical romance novel about a young woman's romantic delusions",
+      "published_year": 1817,
+      "price": "10.99",
+      "pages": 272,
+      "isbn": "9780141439516",
+      "created_at": "2026-01-17T00:00:00Z"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 47,
+    "fields": {
+      "title": "The Demon Cycle",
+      "description": "A fantasy series following a group of warriors against supernatural threats",
+      "published_year": 2012,
+      "price": "16.99",
+      "pages": 464,
+      "isbn": "9780804178241",
+      "created_at": "2026-01-17T00:00:00Z"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 48,
+    "fields": {
+      "title": "Ender's Game",
+      "description": "A science fiction novel about a brilliant boy trained for interstellar warfare",
+      "published_year": 1985,
+      "price": "14.99",
+      "pages": 324,
+      "isbn": "9780812550702",
+      "created_at": "2026-01-17T00:00:00Z"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 49,
+    "fields": {
+      "title": "The Midnight Library",
+      "description": "A literary fantasy about a woman exploring different life paths",
+      "published_year": 2020,
+      "price": "18.99",
+      "pages": 496,
+      "isbn": "9780525555023",
+      "created_at": "2026-01-17T00:00:00Z"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 50,
+    "fields": {
+      "title": "The Cryptic Scroll",
+      "description": "A historical fiction adventure set in ancient civilizations",
+      "published_year": 2018,
+      "price": "15.99",
+      "pages": 412,
+      "isbn": "9780994045522",
+      "created_at": "2026-01-17T00:00:00Z"
+    }
+  }
+]
